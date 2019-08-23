@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+#head {
+    width: 100%;
+    position: fixed;
+    height: 150px;
+    border: 1px solid wheat;
+}
+
+#head-logo {
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px lightblue solid;
+    height: 100%;
+    float: left;
+    background: url("image/bia.jpeg")
+}
+
+#head-banner {
+    box-sizing: border-box;
+    width: 70%;
+    border: lavender 1px solid;
+    float: left;
+    height: 100%;
+    background: url("image/dep.jpeg");
+}
+
+#head-link {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 1px solid darkseagreen;
+    margin-top: 152px;
+    background-color: navajowhite;
+    position: fixed;
+}
+
+#main {
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px solid cadetblue;
+}
+
+#head-link a {
+    text-decoration: none;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    text-decoration-color: ivory;
+    display: inline-block;
+}
+
+#left {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 22%;
+    height: 1200px;
+    border: 1px solid antiquewhite;
+    margin-top: 215px;
+    margin-bottom: 0.5%;
+    float: left;
+    background-color: antiquewhite;
+}
+
+#content {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin-top: 215px;
+    width: 54%;
+    height: 1200px;
+    border: honeydew 1px solid;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    background-color: honeydew;
+}
+
+#right {
+    box-sizing: border-box;
+    display: inline-block;
+    float: right;
+    margin-top: 215px;
+    width: 23%;
+    height: 1200px;
+    border: seashell 1px solid;
+    margin-left: 5px;
+    margin-bottom: 0.5%;
+    background-color: seashell;
+}
+
+#footer {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 1%;
+    height: 80px;
+    width: 100%;
+    clear: both;
+    border: 1px solid skyblue;
+    background-color: skyblue;
+}
